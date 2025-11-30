@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Koda Gursoy
+    - name: Email
+      value: koda.gursoy@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: AB in Economics
+      institution: Princeton University
+      year: 2022 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Overall GPA: 3.99, Departmental GPA: 4.0"
+        - title: Relevant Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Strategy and Information (A+)
+            - Microeconomic Theory I (graduate; current)
+            - Microeconomic Theory - A Mathematical Approach (A+)
+            - Macroeconomic Theory - A Mathematical Approach (A+)
+            - "Econometrics: A Mathematical Approach (A+)"
+            - Junior Independent Work (A+)
+            - Intro to Single Variable Analysis (A+)
+            - Econometric Applications (A)
+            - Probability and Stochastic Systems (A)
+            - Advanced Vector Calculus (A)
+            - Advanced Linear Algebra with Applications (A)
+            - Introduction to Machine Learning (A)
+    - title: High School Diploma
+      institution: The Academy for Mathematics, Science and Engineering
+      year: 2018 - 2022
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Summer Research Grant/Senior Thesis
+      institution: Princeton Economics Department
+      year: Jun 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advised by Professor Faruk Gul
+        - Researching information aggregation in common-value elections when voters have Rank Dependent Expected Utility preferences.
+        - Found that with RDEU preferences, information often fails to aggregate due to strong incentives against randomization, unlike the subjective expected utility case in which randomization at a cutoff signal can sustain informative equilibria.
+        - Extending this work as my Senior Thesis.
+    - title: Research Assistant
+      institution: Bleemer Economics Lab at Princeton University
+      year: Jan 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Advised by Professor Zachary Bleemer
+        - Co-author on the lab's project on wage and promotion gaps among University of California faculty.
+        - Constructed a 250,000 entry dataset of all academic employees of the University of California system from 2006-2023, including position, department, and salary.
+        - Used a combination web-scraping and LLM structured data extraction approach to aggregate the data from many sources, before implementing a matching protocol in R to generate the final dataset.
+        - Began analysis of gender-pay gap and gap in tenure rates, using a basic fixed effects model to assess the share of the aggregate pay gap explainable by department, university, position, etc.
+    - title: <em>Can Policies Regulating Information Acquisition Alleviate Statistical Discrimination?</em>
+      institution: Princeton Economics Department
+      year: Apr 2025
       description:
+        - Junior Independent work, advised by Professor Adam Kapor
+        - Complicated the Coate-Loury (1993) model of statistical discrimination by allowing employers to select signal structures using Rational Inattention machinery, then testing whether certain interventions could prevent the existence of discriminatory equilibria.'
+    - title: Research Assistant for Professor Adam Kapor
+      institution: Princeton University
+      year: Jun 2024 - Aug 2024
+      description:
+        - 'Ran Julia simulations for "College Admissions with Preference Signals and Interdependent Values," a project combining common value auctions and matching to explore why schools segment markets for students (the "feeder school" phenomenon).'
+        - Explored equilibrium properties in the binary qualification case, testing comparative statics of signal accuracy, equilibrium admission cutoffs, and university payoffs.
+        - Endogenized signal accuracy subject to a cost function to examine comparative statics of information cost, equilibrium cutoffs, and payoffs.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards and Honors
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: Fall 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Economics Department First Junior Prize: top student in Princeton's economics department"
+        - Phi Beta Kappa Honor Society early induction (34 students from Princeton's class of 2026)
+    - year: Fall 2023
       items:
-        - Max Planck Medal
+        - "Shapiro Prize for Academic Excellence: outstanding academic achievement in first-year"
 
-- title: Academic Interests
+- title: Leadership Experience
+  type: time_table
+  contents:
+    - title: President and Head Instructor
+      institution: Princeton University Brazilian Jiu Jitsu
+      year: ""
+      description:
+        - Developed curriculum for the club, taught classes, and organized tournaments attended by many competing universities.
+    - title: Assistant Music Director and Album Chair
+      institution: Princeton University Footnotes
+      year: ""
+      description:
+        - Directed rehearsals and performances for a semi-professional acapella group.
+        - Recorded and produced vocals for a 12 track album, Under Renovation, released in September 2025.
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Java, Python, Selenium, Stata, R, dplyr, Julia
+    - title: Other Software
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - LaTeX

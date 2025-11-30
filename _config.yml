@@ -7,7 +7,6 @@ first_name: Koda
 middle_name: 
 last_name: Gursoy
 contact_note: >
-  Email me at koda.gursoy@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Senior in Economics at Princeton University.
 footer_text: >
@@ -263,8 +262,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Gursoy]
+  first_name: [Koda, K.]
 
   style: apa
   locale: en
