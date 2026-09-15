@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Princeton University, Economics Department '26
+subtitle: MIT, Economics Department, PhD Student
 
 profile:
   align: right
@@ -23,6 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a senior at Princeton University majoring in economics. My research interests are in microeconomic theory and behavioral economics, with applications to labor and public economics. I am particularly interested in how institutional design contributes to inequality.
+I am a first-year PhD Student in the Economics Department at MIT. I graduated from Princeton University with an AB in economics in 2026. My research interests are in microeconomic theory and behavioral economics, with applications to labor and public economics. I am particularly interested in how institutional design contributes to inequality.
 
-I have worked with Professors Zachary Bleemer, Adam Kapor, and Faruk Gul on projects spanning both empirical and theoretical economics. Outside of academics, I am the head instructor of Princeton's Brazilian Jiu-Jitsu club, a member of the [Princeton Footnotes](https://open.spotify.com/track/52Vkt6SLDgx26tP4C0eKfY?si=ed253f6a8c7e41d5), and I write and produce my own [music](https://open.spotify.com/album/4Hc6gnzU4oMVIaojWkYI7H?si=N7MfB_s5Sp2KrrM6JqyTBQ).
+I have worked with Professors Zachary Bleemer, Adam Kapor, and Faruk Gul on projects spanning both empirical and theoretical economics. Outside of academics, I train Brazilian Jiu Jitsu and [sing](https://open.spotify.com/track/52Vkt6SLDgx26tP4C0eKfY?si=ed253f6a8c7e41d5).
